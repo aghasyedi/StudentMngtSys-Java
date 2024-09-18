@@ -1,0 +1,28 @@
+<h1>Get Student by ID</h1>
+<!--  <form action="GetStudentById" method="get">
+    <div class="form-group">
+        <label for="getStudentById">Student ID*</label>
+        <input type="text" class="rounded-input" id="getStudentById" name="getStudentById" required>
+    </div>
+    <button type="submit" class="btn">Get Student</button>
+</form>-->
+<div id="formContainer" class="form-group">
+    <label for="getStudentId">Student ID*</label>
+    <input type="text" class="rounded-input" id="id" name="id" required><br><br>
+    <button type="submit" class="btn" name="action" value="get" onclick="sendId('/Smss/StudentGetById')">Get Student</button>
+</div>
+<script>
+function sendId(url) {
+    var id = document.getElementById("id").value;
+
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", url + "?id=" + encodeURIComponent(id), true);
+
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            document.getElementById("formContainer").innerHTML = xhr.responseText;
+        }
+    };
+
+    xhr.send();
+}</script>
