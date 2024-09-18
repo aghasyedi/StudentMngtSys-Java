@@ -46,7 +46,8 @@ The aim of this project is to provide a practical learning experience with web d
 - Apache Tomcat server
 - MongoDB
 - Maven (for project dependency management)
-  # Images
+
+# Screenshots
 
 ![6](https://github.com/user-attachments/assets/31612761-0949-4f36-86ff-3e4ed54c70c0)
 ![5](https://github.com/user-attachments/assets/babd1c2d-d825-4781-9f62-379ce1c1c462)
