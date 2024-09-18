@@ -1,0 +1,21 @@
+<h1>Update Program</h1>
+<form action="UpdateProgram" method="post" onsubmit="return validateUpdateForm()">
+        <input type="hidden" name="action" value="add">
+            <div class="form-group">
+                <label for="name">Program Name*</label>
+                <input type="text" class="rounded-input" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="ProgramId">Program ID*</label>
+                <input type="text" class="rounded-input" id="id" name="id" required>
+            </div>
+            <div class="form-group">
+                <label for="grade">Program Duration</label>
+                <input type="text" class="rounded-input" id="duration" name="duration">
+            </div>
+            <div class="form-group">
+                <label for="contact">Program Type</label>
+                <input type="text" class="rounded-input" id="type" name="type">
+            </div>
+            <button type="submit" class="btn" name="action" value="add">Add Program</button>
+        </form>

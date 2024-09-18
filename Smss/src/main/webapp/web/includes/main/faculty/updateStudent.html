@@ -1,0 +1,34 @@
+<h1>Update Student</h1>
+<form action="UpdateStudent" method="post" onsubmit="return validateUpdateForm()">
+    <div class="form-group">
+        <label for="updateStudentId">Student ID</label>
+        <input type="text" id="updateStudentId" name="updateStudentId" required>
+    </div>
+    <div class="form-group">
+        <label for="updateName">Name</label>
+        <input type="text" id="updateName" name="updateName">
+    </div>
+    <div class="form-group">
+        <label for="updateGrade">Grade</label>
+        <input type="text" id="updateGrade" name="updateGrade">
+    </div>
+    <div class="form-group">
+                <label for="gender">Gender</label>
+              <div class="radio-group">
+			      <input type="radio" id="male" name="S_gender" value="Male"><label for="male">Male</label>
+			      </div>
+			  
+              <div class="radio-group">
+			      <input type="radio" id="female" name="S_gender" value="Female"><label for="female">Female</label>
+			      </div>
+            </div>
+    <div class="form-group">
+        <label for="updateContact">Contact</label>
+        <input type="text" id="updateContact" name="updateContact">
+    </div>
+    <div class="form-group">
+        <label for="updateEmail">Email</label>
+        <input type="email" id="updateEmail" name="updateEmail">
+    </div>
+    <button type="submit" class="btn" name="action" value="update">Update Student</button>
+</form>

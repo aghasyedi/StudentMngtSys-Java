@@ -1,0 +1,25 @@
+<!--
+
+    <script>
+        function sendId(url) {
+            var id = document.getElementById("id").value;
+
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", url + encodeURIComponent(id), true);
+
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    document.getElementById("formContainer").innerHTML = xhr.responseText;
+                }
+            };
+
+            xhr.send();
+        }
+    </script>-->
+    <h1>Update Student</h1>
+    <div id="formContainer"  class="form-group"  onsubmit="return confirm('Are you sure you want to update this student?')">
+    
+        <label for="updateStudentId">Student ID*</label>
+    <input type="text" class="rounded-input"  id="id" name="id" required><br><br>
+        <button type="submit" class="btn" name="action" value="update" onclick="sendId('/Smss/StudentUpdate')">Update Student</button>
+    </div>
