@@ -47,11 +47,11 @@ The aim of this project is to provide a practical learning experience with web d
 - MongoDB
 - Maven (for project dependency management)
   # Images
-![Picture 1](https://github.com/user-attachments/assets/48446971-62f2-49ef-9401-3d57c03b95b8)
+
 ![6](https://github.com/user-attachments/assets/31612761-0949-4f36-86ff-3e4ed54c70c0)
 ![5](https://github.com/user-attachments/assets/babd1c2d-d825-4781-9f62-379ce1c1c462)
 ![4](https://github.com/user-attachments/assets/0da3ed8e-7206-4e13-abc8-d7bc0f752da3)
 ![3](https://github.com/user-attachments/assets/1a64ee05-ee5e-4258-a550-599ca40c8b44)
 ![2](https://github.com/user-attachments/assets/71f19b49-cb93-4d9f-9afc-a404740c7958)
-
+![Picture 1](https://github.com/user-attachments/assets/48446971-62f2-49ef-9401-3d57c03b95b8)
   
